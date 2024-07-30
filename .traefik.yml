@@ -1,0 +1,12 @@
+displayName: Header To Cookie Plugin
+type: middleware
+#iconPath: .assets/icon.png
+
+import: github.com/shailesh17/traefik-plugin-header-cookie
+
+summary: '[HeaderCookie] Copy Header to Cookie'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
